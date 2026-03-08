@@ -114,3 +114,14 @@ ul {
     margin: 5px 0;
     text-align: center;
 }
+
+.quote {
+    padding: 128px;
+}
+.quote-text, .author-text {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.author-text {
+    text-align: right;
+}
