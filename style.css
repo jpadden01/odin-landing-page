@@ -33,7 +33,7 @@ body {
 .header, .footer {
     background-color: #1F2937;
 }
-.hero button, .call-to-action {
+.hero button, .call-to-action, .call-to-action button {
     background-color: #3882F6;
 }
 .quote {
@@ -73,7 +73,7 @@ ul {
 .hero img {
     margin-left: 16px;
 }
-.hero button {
+.hero button, .call-to-action button {
     padding: 8px 24px;
     border: none;
     border-radius: 8px;
@@ -124,4 +124,21 @@ ul {
 }
 .author-text {
     text-align: right;
+}
+
+.call-to-action {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 96px auto;
+    border-radius: 8px;
+    padding: 32px 160px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.call-to-action-left h3, p {
+    margin: 0;
+}
+.call-to-action button {
+    border: 2px solid white;
 }
