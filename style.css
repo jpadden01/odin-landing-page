@@ -142,3 +142,10 @@ ul {
 .call-to-action button {
     border: 2px solid white;
 }
+
+.footer {
+    padding: 48px;
+
+    display: flex;
+    justify-content: center;
+}
