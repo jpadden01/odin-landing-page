@@ -92,6 +92,7 @@ ul {
 }
 .hero-left, .hero img {
     margin: 128px 0;
+    padding: 32px;
     flex: 1;
 }
 .hero-left {
@@ -101,6 +102,7 @@ ul {
     margin-left: 16px;
 }
 .hero button, .call-to-action button {
+    margin-top: 16px;
     padding: 8px 24px;
     border: none;
     border-radius: 8px;
