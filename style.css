@@ -1,6 +1,8 @@
 /* --- FONTS --- */
 body {
     font-family: 'Roboto', sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
 }
 .logo-text {
     font-size: 24px;
@@ -22,11 +24,32 @@ body {
     font-weight: 900;
     color: #1F2937;   
 }
+.random-info p {
+    color: gray;
+}
 .quote-text {
     font-size: 36px;
     font-weight: 300;
     color: #1F2937;
     font-style: italic;
+}
+.author-text {
+    font-size: 24px;
+    font-weight: 600;
+}
+.call-to-action h3, .call-to-action p {
+    color: #E5E7EB;
+}
+.call-to-action h3 {
+    font-size: 24px;
+}
+.call-to-action p {
+    font-size: 18px;
+    font-weight: 300;
+}
+.footer {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 /* --- BACKGROUNDS --- */
@@ -82,7 +105,7 @@ ul {
     border: none;
     border-radius: 8px;
 
-    color: white;
+    color: #E5E7EB;
     font-size: 18px;
     font-weight: bold;
 }
@@ -144,7 +167,7 @@ ul {
     margin: 0;
 }
 .call-to-action button {
-    border: 2px solid white;
+    border: 2px solid #E5E7EB;
 }
 
 .footer {
